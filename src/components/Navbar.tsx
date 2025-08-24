@@ -214,7 +214,7 @@ export default function Navbar() {
               {currentUser ? (
                 <div className="border-t border-orange-500/20 mt-3 pt-3">
                   <div className="px-3 py-2 text-sm font-medium text-orange-400">
-                    {currentUser?.name?.split("")[0]}
+                    {currentUser?.name?.split(" ")[0]}
                   </div>
                   <Link
                     to="/favorites"
