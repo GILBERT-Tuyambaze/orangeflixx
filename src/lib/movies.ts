@@ -56,7 +56,7 @@ export class MovieService {
           genre: ['Drama', 'Fantasy', 'Horror'],
           releaseYear: 2016,
           duration: 45,
-          imageUrl: '/images/supernatural.jpg',
+          imageUrl: 'https://orangeflixx.vercel.app/images/Supernatural.jpg',
           videoUrl: 'https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4',
           rating: 4.7,
           totalRatings: 2100,
