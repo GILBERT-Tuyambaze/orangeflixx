@@ -42,7 +42,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-gradient-to-r from-orange-900/20 via-yellow-900/20 to-orange-900/20 backdrop-blur-md border-b border-orange-500/20 sticky top-0 z-50 transition-all duration-300">
+    <nav className="bg-gradient-to-r from-orange-900/20 via-yellow-900/20 to-orange-900/20 backdrop-blur-md border-b border-orange-500/20 sticky top-0 z-50 transition-all duration-300 overflow-x-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -214,7 +214,7 @@ export default function Navbar() {
               {currentUser ? (
                 <div className="border-t border-orange-500/20 mt-3 pt-3">
                   <div className="px-3 py-2 text-sm font-medium text-orange-400">
-                    {currentUser.name}
+                    {currentUser?.name?.split("").[0]}
                   </div>
                   <Link
                     to="/favorites"
