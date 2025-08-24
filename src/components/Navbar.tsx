@@ -109,7 +109,8 @@ export default function Navbar() {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="text-white hover:bg-orange-500/20 transition-all duration-500 transform hover:scale-105 animate-heartbeat group" aria-label="User menu">
                     <User className="w-5 h-5 mr-2 animate-pulse group-hover:animate-spin" />
-                    <span className="hidden lg:inline animate-glow">{currentUser.name}</span>
+                    <span className="hidden lg:inline animate-glow">{currentUser?.name?.split(" ")[0]}
+</span>
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="bg-gray-900/95 border-orange-500/20 backdrop-blur-sm">
