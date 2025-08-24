@@ -81,9 +81,6 @@ export default function Login() {
                 Sign up
               </Link>
             </p>
-            <p className="text-sm text-gray-500 mt-2">
-              Use <strong>admin@orangeflix.com</strong> for admin access
-            </p>
           </div>
         </CardContent>
       </Card>
