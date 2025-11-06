@@ -185,26 +185,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 group hover:bg-orange-500/5 p-2 rounded transition-all duration-300">
                 <Mail size={16} className="text-orange-500 animate-pulse group-hover:animate-bounce" />
-                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">support@orangeflix.com</span>
+                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">tuyambazegilbert05@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 group hover:bg-orange-500/5 p-2 rounded transition-all duration-300">
                 <Phone size={16} className="text-orange-500 animate-pulse group-hover:animate-bounce" />
-                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">+1 (555) 123-4567</span>
+                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">+250(79) 343-8873</span>
               </div>
               <div className="flex items-center space-x-2 group hover:bg-orange-500/5 p-2 rounded transition-all duration-300">
                 <MapPin size={16} className="text-orange-500 animate-pulse group-hover:animate-bounce" />
-                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">Los Angeles, CA</span>
-              </div>
-            </div>
-            <div className="mt-4">
-              <h4 className="text-sm font-medium text-gray-200 mb-2 animate-fade-in">Download Our App</h4>
-              <div className="flex space-x-2">
-                <a href="#" className="bg-gradient-to-r from-gray-800 to-gray-700 hover:from-orange-600 hover:to-orange-500 px-3 py-2 rounded text-xs transition-all duration-500 transform hover:scale-110 hover:shadow-lg animate-pulse">
-                  📱 App Store
-                </a>
-                <a href="#" className="bg-gradient-to-r from-gray-800 to-gray-700 hover:from-orange-600 hover:to-orange-500 px-3 py-2 rounded text-xs transition-all duration-500 transform hover:scale-110 hover:shadow-lg animate-pulse" style={{animationDelay: '0.5s'}}>
-                  🤖 Google Play
-                </a>
+                <span className="text-gray-300 text-sm group-hover:text-white transition-colors">kigali, Rwanda</span>
               </div>
             </div>
           </div>
