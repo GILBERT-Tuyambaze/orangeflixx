@@ -172,7 +172,7 @@ const Footer = () => {
               </li>
             
             <li className="transform hover:scale-105 transition-all duration-300">
-                <a href="https://gilbert-tuyambaze.vercel.app" className="text-gray-300 hover:text-white hover:shadow-lg hover:shadow-orange-500/20 px-2 py-1 rounded transition-all duration-300 text-sm block">
+                <a href="https://tuyambaze-gilbert.vercel.app" className="text-gray-300 hover:text-white hover:shadow-lg hover:shadow-orange-500/20 px-2 py-1 rounded transition-all duration-300 text-sm block">
                   Powered by Gilbert TUYAMBAZE
                 </a>
             </li>
